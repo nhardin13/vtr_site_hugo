@@ -1,0 +1,22 @@
+{
+  "name": "my-11ty-site",
+  "version": "1.0.0",
+  "description": "A simple Eleventy site",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "start": "npm run build && npm run serve"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "eleventy",
+    "static-site-generator",
+    "markdown"
+  ]
+}
