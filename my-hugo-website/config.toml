@@ -1,0 +1,23 @@
+title = "My Hugo Website"
+baseURL = "http://example.com/"
+languageCode = "en-us"
+theme = "your-theme-name"
+
+[params]
+  description = "Welcome to my Hugo website. Here you can find information about our services and how to contact us."
+  
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
